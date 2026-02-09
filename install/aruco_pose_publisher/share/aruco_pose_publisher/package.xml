@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aruco_pose_publisher</name>
+  <version>0.1.0</version>
+  <description>ROS 2 C++ node that detects ArUco markers in a video stream and publishes their poses.</description>
+  <maintainer email="ryan@example.com">Ryan</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- OpenCV is a system dependency; ensure it's installed -->
+  <exec_depend>opencv</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

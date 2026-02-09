@@ -1,0 +1,51 @@
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:30:[m[K [01;31m[Kerror: [m[K‘[01m[KArucoDetector[m[K’ is not a member of ‘[01m[Kcv::aruco[m[K’
+  227 |   std::unique_ptr<cv::aruco::[01;31m[KArucoDetector[m[K> detector_;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  227 |   std::unique_ptr<cv::aruco::ArucoDetector[01;31m[K>[m[K detector_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:[m[K In constructor ‘[01m[KArucoPoseNode::ArucoPoseNode()[m[K’:
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:45:[m[K [01;31m[Kerror: [m[K‘[01m[KArucoDetector[m[K’ is not a member of ‘[01m[Kcv::aruco[m[K’
+  130 |     detector_ = std::make_unique<cv::aruco::[01;31m[KArucoDetector[m[K>(dict_, params_);
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(cv::Ptr<cv::aruco::Dictionary>&, cv::aruco::DetectorParameters&)[m[K’
+  130 |     detector_ = [01;31m[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+  961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     detector_ = [01;31m[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+  967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     detector_ = [01;31m[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+  973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  130 |     detector_ = [01;31m[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid ArucoPoseNode::onTimer()[m[K’:
+[01m[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:154:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  154 |     detector_[01;31m[K->[m[KdetectMarkers(gray, corners, ids, rejected);
+      |              [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/aruco_pose_publisher_node.dir/build.make:76: CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruco_pose_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

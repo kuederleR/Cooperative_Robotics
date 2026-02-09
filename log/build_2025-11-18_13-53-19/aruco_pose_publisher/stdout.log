@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target aruco_pose_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable aruco_pose_publisher_node[0m
+[100%] Built target aruco_pose_publisher_node
+-- Install configuration: "Release"
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node
+-- Set runtime path of "/home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node" to ""
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch/aruco_pose_publisher.launch.py
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/package_run_dependencies/aruco_pose_publisher
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/parent_prefix_path/aruco_pose_publisher
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.sh
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.dsv
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.bash
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.sh
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.zsh
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.dsv
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.dsv
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/packages/aruco_pose_publisher
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig.cmake
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig-version.cmake
+-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.xml
