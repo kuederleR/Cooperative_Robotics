@@ -1,8 +1,0 @@
-#0:
-    parent:                imu_apps
-    child:                 tracking_front
-    T_child_wrt_parent:    0.039   0.006   0.001 
-    RPY_parent_to_child:   0.0    90.0    90.0  
-    R_child_to_parent:     0.000  -0.000   1.000 
-                           1.000   0.000  -0.000 
-                          -0.000   1.000   0.000 
