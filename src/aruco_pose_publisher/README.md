@@ -34,7 +34,7 @@ Launch with defaults:
 
 ```bash
 ros2 launch aruco_pose_publisher aruco_pose_publisher.launch.py \
-  intrinsics_path:="$(pwd)/src/aruco_tracking/aruco_tracking/opencv_tracking_down_intrinsics.yml"
+  intrinsics_path:="$(pwd)/src/opencv_tracking_down_intrinsics.yml"
 ```
 
 Or run the executable directly:
