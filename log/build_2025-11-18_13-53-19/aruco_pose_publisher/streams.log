@@ -1,0 +1,28 @@
+[0.027s] Invoking command in '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.xps-py) /usr/bin/cmake --build /home/ryan/Cooperative_Robotics/build/aruco_pose_publisher -- -j16 -l16
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target aruco_pose_publisher_node[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o[0m
+[14.485s] [100%] [32m[1mLinking CXX executable aruco_pose_publisher_node[0m
+[15.484s] [100%] Built target aruco_pose_publisher_node
+[15.504s] Invoked command in '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.xps-py) /usr/bin/cmake --build /home/ryan/Cooperative_Robotics/build/aruco_pose_publisher -- -j16 -l16
+[15.521s] Invoking command in '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.xps-py) /usr/bin/cmake --install /home/ryan/Cooperative_Robotics/build/aruco_pose_publisher
+[15.533s] -- Install configuration: "Release"
+[15.533s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node
+[15.534s] -- Set runtime path of "/home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node" to ""
+[15.534s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch
+[15.534s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch/aruco_pose_publisher.launch.py
+[15.534s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/package_run_dependencies/aruco_pose_publisher
+[15.534s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/parent_prefix_path/aruco_pose_publisher
+[15.534s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.sh
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.dsv
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.sh
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.dsv
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.bash
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.sh
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.zsh
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.dsv
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.dsv
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/packages/aruco_pose_publisher
+[15.535s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig.cmake
+[15.536s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig-version.cmake
+[15.536s] -- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.xml
+[15.538s] Invoked command in '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(.xps-py) /usr/bin/cmake --install /home/ryan/Cooperative_Robotics/build/aruco_pose_publisher

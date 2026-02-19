@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000949] (-) JobUnselected: {'identifier': 'aruco_tracking'}
+[0.001208] (aruco_pose_publisher) JobQueued: {'identifier': 'aruco_pose_publisher', 'dependencies': OrderedDict()}
+[0.001257] (aruco_pose_publisher) JobStarted: {'identifier': 'aruco_pose_publisher'}
+[0.015158] (aruco_pose_publisher) JobProgress: {'identifier': 'aruco_pose_publisher', 'progress': 'cmake'}
+[0.016038] (aruco_pose_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/ryan/Cooperative_Robotics/install/aruco_pose_publisher'], 'cwd': '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/external_packages/px4_msgs/px4_msgs/lib:/opt/ros2-csi-msgs/install/wifi_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryan'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0-insider'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ryan/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/ryan/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](.xps-py) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code-insiders/code-insiders'), ('MANAGERPID', '4170'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4380'), ('BUNDLED_DEBUGPY_PATH', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '135683'), ('NVM_DIR', '/home/ryan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros2-csi-msgs/install:/external_packages/px4_msgs'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryan'), ('JOURNAL_STREAM', '8:40985'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ryan/.xps-py/bin:/home/ryan/.local/bin:/home/ryan/.nvm/versions/node/v22.19.0/bin:/home/ryan/.xps-py/bin:/opt/ros/humble/bin:/home/ryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ryan/.dotnet/tools:/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts:/home/ryan/.config/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ryan-XPS-9320:@/tmp/.ICE-unix/4352,unix/ryan-XPS-9320:/tmp/.ICE-unix/4352'), ('INVOCATION_ID', 'e32a932df6554b62bb8750e2ddd224a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-73a2cf1db547468f.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ryan/.config/Code - Insiders/User/workspaceStorage/d648386b030636306424ea9f8615635e/ms-python.python/pythonrc.py'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ryan/.cache/dotnet_bundle_extract'), ('VIRTUAL_ENV_PROMPT', '(.xps-py)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.QL7PF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-45667b4fe6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/ryan/.xps-py'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ryan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/external_packages/px4_msgs/px4_msgs/lib/python3.10/site-packages:/opt/ros2-csi-msgs/install/wifi_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099549] (-) TimerEvent: {}
+[0.141550] (aruco_pose_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199705] (-) TimerEvent: {}
+[0.252695] (aruco_pose_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.268142] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299886] (-) TimerEvent: {}
+[0.383321] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394597] (aruco_pose_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.395931] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.396857] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.399942] (-) TimerEvent: {}
+[0.401878] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500103] (-) TimerEvent: {}
+[0.530149] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.543947] (aruco_pose_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.544537] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.545302] (aruco_pose_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.552129] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600247] (-) TimerEvent: {}
+[0.700704] (-) TimerEvent: {}
+[0.779164] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found Python3: /home/ryan/.xps-py/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.800832] (-) TimerEvent: {}
+[0.901268] (-) TimerEvent: {}
+[0.932152] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.001535] (-) TimerEvent: {}
+[1.014197] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.022528] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.039271] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.062081] (aruco_pose_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.090697] (aruco_pose_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101691] (-) TimerEvent: {}
+[1.172380] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.177446] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201870] (-) TimerEvent: {}
+[1.302283] (-) TimerEvent: {}
+[1.325638] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.376157] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.402557] (-) TimerEvent: {}
+[1.444936] (aruco_pose_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.460880] (aruco_pose_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502744] (-) TimerEvent: {}
+[1.580502] (aruco_pose_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.581182] (aruco_pose_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.602903] (-) TimerEvent: {}
+[1.701752] (aruco_pose_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.703040] (-) TimerEvent: {}
+[1.703430] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.798513] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.803194] (-) TimerEvent: {}
+[1.835175] (aruco_pose_publisher) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.903328] (-) TimerEvent: {}
+[1.983361] (aruco_pose_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002495] (aruco_pose_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[2.003520] (-) TimerEvent: {}
+[2.008469] (aruco_pose_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/ryan/Cooperative_Robotics/build/aruco_pose_publisher\n'}
+[2.023576] (aruco_pose_publisher) CommandEnded: {'returncode': 0}
+[2.024570] (aruco_pose_publisher) JobProgress: {'identifier': 'aruco_pose_publisher', 'progress': 'build'}
+[2.026333] (aruco_pose_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', '--', '-j16', '-l16'], 'cwd': '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/external_packages/px4_msgs/px4_msgs/lib:/opt/ros2-csi-msgs/install/wifi_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryan'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0-insider'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ryan/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/ryan/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](.xps-py) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code-insiders/code-insiders'), ('MANAGERPID', '4170'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4380'), ('BUNDLED_DEBUGPY_PATH', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '135683'), ('NVM_DIR', '/home/ryan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros2-csi-msgs/install:/external_packages/px4_msgs'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryan'), ('JOURNAL_STREAM', '8:40985'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ryan/.xps-py/bin:/home/ryan/.local/bin:/home/ryan/.nvm/versions/node/v22.19.0/bin:/home/ryan/.xps-py/bin:/opt/ros/humble/bin:/home/ryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ryan/.dotnet/tools:/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts:/home/ryan/.config/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ryan-XPS-9320:@/tmp/.ICE-unix/4352,unix/ryan-XPS-9320:/tmp/.ICE-unix/4352'), ('INVOCATION_ID', 'e32a932df6554b62bb8750e2ddd224a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-73a2cf1db547468f.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ryan/.config/Code - Insiders/User/workspaceStorage/d648386b030636306424ea9f8615635e/ms-python.python/pythonrc.py'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ryan/.cache/dotnet_bundle_extract'), ('VIRTUAL_ENV_PROMPT', '(.xps-py)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.QL7PF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-45667b4fe6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/ryan/.xps-py'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ryan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/external_packages/px4_msgs/px4_msgs/lib/python3.10/site-packages:/opt/ros2-csi-msgs/install/wifi_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble')]), 'shell': False}
+[2.103749] (-) TimerEvent: {}
+[2.108899] (aruco_pose_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o\x1b[0m\n'}
+[2.203886] (-) TimerEvent: {}
+[2.304507] (-) TimerEvent: {}
+[2.404928] (-) TimerEvent: {}
+[2.505340] (-) TimerEvent: {}
+[2.606030] (-) TimerEvent: {}
+[2.706451] (-) TimerEvent: {}
+[2.806974] (-) TimerEvent: {}
+[2.907396] (-) TimerEvent: {}
+[3.007883] (-) TimerEvent: {}
+[3.108328] (-) TimerEvent: {}
+[3.208785] (-) TimerEvent: {}
+[3.309292] (-) TimerEvent: {}
+[3.409826] (-) TimerEvent: {}
+[3.510256] (-) TimerEvent: {}
+[3.610771] (-) TimerEvent: {}
+[3.711251] (-) TimerEvent: {}
+[3.811837] (-) TimerEvent: {}
+[3.912447] (-) TimerEvent: {}
+[4.012899] (-) TimerEvent: {}
+[4.113347] (-) TimerEvent: {}
+[4.213836] (-) TimerEvent: {}
+[4.314322] (-) TimerEvent: {}
+[4.414875] (-) TimerEvent: {}
+[4.515449] (-) TimerEvent: {}
+[4.615920] (-) TimerEvent: {}
+[4.716417] (-) TimerEvent: {}
+[4.816837] (-) TimerEvent: {}
+[4.917358] (-) TimerEvent: {}
+[5.017833] (-) TimerEvent: {}
+[5.118329] (-) TimerEvent: {}
+[5.218816] (-) TimerEvent: {}
+[5.319220] (-) TimerEvent: {}
+[5.419715] (-) TimerEvent: {}
+[5.520164] (-) TimerEvent: {}
+[5.620557] (-) TimerEvent: {}
+[5.720952] (-) TimerEvent: {}
+[5.821470] (-) TimerEvent: {}
+[5.921945] (-) TimerEvent: {}
+[6.022372] (-) TimerEvent: {}
+[6.122799] (-) TimerEvent: {}
+[6.223268] (-) TimerEvent: {}
+[6.323651] (-) TimerEvent: {}
+[6.424009] (-) TimerEvent: {}
+[6.524454] (-) TimerEvent: {}
+[6.624868] (-) TimerEvent: {}
+[6.725322] (-) TimerEvent: {}
+[6.738636] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArucoDetector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv::aruco\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.738999] (aruco_pose_publisher) StderrLine: {'line': b'  227 |   std::unique_ptr<cv::aruco::\x1b[01;31m\x1b[KArucoDetector\x1b[m\x1b[K> detector_;\n'}
+[6.739147] (aruco_pose_publisher) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.739270] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.739390] (aruco_pose_publisher) StderrLine: {'line': b'  227 |   std::unique_ptr<cv::aruco::ArucoDetector\x1b[01;31m\x1b[K>\x1b[m\x1b[K detector_;\n'}
+[6.739526] (aruco_pose_publisher) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.739664] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:227:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[6.764766] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KArucoPoseNode::ArucoPoseNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.765433] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KArucoDetector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv::aruco\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.765584] (aruco_pose_publisher) StderrLine: {'line': b'  130 |     detector_ = std::make_unique<cv::aruco::\x1b[01;31m\x1b[KArucoDetector\x1b[m\x1b[K>(dict_, params_);\n'}
+[6.765728] (aruco_pose_publisher) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.765841] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >(cv::Ptr<cv::aruco::Dictionary>&, cv::aruco::DetectorParameters&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.765957] (aruco_pose_publisher) StderrLine: {'line': b'  130 |     detector_ = \x1b[01;31m\x1b[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)\x1b[m\x1b[K;\n'}
+[6.766064] (aruco_pose_publisher) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.766171] (aruco_pose_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[6.766306] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.766419] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.766534] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.766662] (aruco_pose_publisher) StderrLine: {'line': b'  961 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[6.766789] (aruco_pose_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.766901] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.767013] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.767125] (aruco_pose_publisher) StderrLine: {'line': b'  130 |     detector_ = \x1b[01;31m\x1b[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)\x1b[m\x1b[K;\n'}
+[6.767235] (aruco_pose_publisher) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.767345] (aruco_pose_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[6.767455] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.767565] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.767691] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.767806] (aruco_pose_publisher) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[6.767916] (aruco_pose_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.768024] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.768129] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.768233] (aruco_pose_publisher) StderrLine: {'line': b'  130 |     detector_ = \x1b[01;31m\x1b[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)\x1b[m\x1b[K;\n'}
+[6.768336] (aruco_pose_publisher) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.768448] (aruco_pose_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[6.768552] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.768669] (aruco_pose_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.768776] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[6.768888] (aruco_pose_publisher) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[6.768992] (aruco_pose_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.769101] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.769220] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:130:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.769331] (aruco_pose_publisher) StderrLine: {'line': b'  130 |     detector_ = \x1b[01;31m\x1b[Kstd::make_unique<cv::aruco::ArucoDetector>(dict_, params_)\x1b[m\x1b[K;\n'}
+[6.769442] (aruco_pose_publisher) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.787201] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ArucoPoseNode::onTimer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.787446] (aruco_pose_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ryan/Cooperative_Robotics/src/aruco_pose_publisher/src/aruco_pose_publisher_node.cpp:154:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[6.787574] (aruco_pose_publisher) StderrLine: {'line': b'  154 |     detector_\x1b[01;31m\x1b[K->\x1b[m\x1b[KdetectMarkers(gray, corners, ids, rejected);\n'}
+[6.787942] (aruco_pose_publisher) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.825474] (-) TimerEvent: {}
+[6.925862] (-) TimerEvent: {}
+[7.026240] (-) TimerEvent: {}
+[7.126705] (-) TimerEvent: {}
+[7.227144] (-) TimerEvent: {}
+[7.327712] (-) TimerEvent: {}
+[7.428305] (-) TimerEvent: {}
+[7.528963] (-) TimerEvent: {}
+[7.629683] (-) TimerEvent: {}
+[7.730284] (-) TimerEvent: {}
+[7.830939] (-) TimerEvent: {}
+[7.931574] (-) TimerEvent: {}
+[8.032102] (-) TimerEvent: {}
+[8.132676] (-) TimerEvent: {}
+[8.233231] (-) TimerEvent: {}
+[8.334007] (-) TimerEvent: {}
+[8.434660] (-) TimerEvent: {}
+[8.535083] (-) TimerEvent: {}
+[8.635567] (-) TimerEvent: {}
+[8.736023] (-) TimerEvent: {}
+[8.836539] (-) TimerEvent: {}
+[8.937079] (-) TimerEvent: {}
+[9.037559] (-) TimerEvent: {}
+[9.138061] (-) TimerEvent: {}
+[9.238546] (-) TimerEvent: {}
+[9.339089] (-) TimerEvent: {}
+[9.439559] (-) TimerEvent: {}
+[9.510467] (aruco_pose_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/aruco_pose_publisher_node.dir/build.make:76: CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o] Error 1\n'}
+[9.510760] (aruco_pose_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aruco_pose_publisher_node.dir/all] Error 2\n'}
+[9.511132] (aruco_pose_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.514949] (aruco_pose_publisher) CommandEnded: {'returncode': 2}
+[9.530939] (aruco_pose_publisher) JobEnded: {'identifier': 'aruco_pose_publisher', 'rc': 2}
+[9.539844] (-) TimerEvent: {}
+[9.541933] (-) EventReactorShutdown: {}

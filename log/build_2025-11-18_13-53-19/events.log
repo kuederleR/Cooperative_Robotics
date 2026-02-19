@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000574] (-) JobUnselected: {'identifier': 'aruco_tracking'}
+[0.000747] (aruco_pose_publisher) JobQueued: {'identifier': 'aruco_pose_publisher', 'dependencies': OrderedDict()}
+[0.001018] (aruco_pose_publisher) JobStarted: {'identifier': 'aruco_pose_publisher'}
+[0.017558] (aruco_pose_publisher) JobProgress: {'identifier': 'aruco_pose_publisher', 'progress': 'cmake'}
+[0.020172] (aruco_pose_publisher) JobProgress: {'identifier': 'aruco_pose_publisher', 'progress': 'build'}
+[0.020402] (aruco_pose_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', '--', '-j16', '-l16'], 'cwd': '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/external_packages/px4_msgs/px4_msgs/lib:/opt/ros2-csi-msgs/install/wifi_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryan'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0-insider'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ryan/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/ryan/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](.xps-py) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code-insiders/code-insiders'), ('MANAGERPID', '4170'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4380'), ('BUNDLED_DEBUGPY_PATH', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '135683'), ('NVM_DIR', '/home/ryan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros2-csi-msgs/install:/external_packages/px4_msgs'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryan'), ('JOURNAL_STREAM', '8:40985'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ryan/.xps-py/bin:/home/ryan/.local/bin:/home/ryan/.nvm/versions/node/v22.19.0/bin:/home/ryan/.xps-py/bin:/opt/ros/humble/bin:/home/ryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ryan/.dotnet/tools:/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts:/home/ryan/.config/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ryan-XPS-9320:@/tmp/.ICE-unix/4352,unix/ryan-XPS-9320:/tmp/.ICE-unix/4352'), ('INVOCATION_ID', 'e32a932df6554b62bb8750e2ddd224a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-73a2cf1db547468f.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ryan/.config/Code - Insiders/User/workspaceStorage/d648386b030636306424ea9f8615635e/ms-python.python/pythonrc.py'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ryan/.cache/dotnet_bundle_extract'), ('VIRTUAL_ENV_PROMPT', '(.xps-py)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.QL7PF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-45667b4fe6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/ryan/.xps-py'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ryan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/external_packages/px4_msgs/px4_msgs/lib/python3.10/site-packages:/opt/ros2-csi-msgs/install/wifi_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble')]), 'shell': False}
+[0.098324] (-) TimerEvent: {}
+[0.107834] (aruco_pose_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_pose_publisher_node\x1b[0m\n'}
+[0.142492] (aruco_pose_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aruco_pose_publisher_node.dir/src/aruco_pose_publisher_node.cpp.o\x1b[0m\n'}
+[0.198522] (-) TimerEvent: {}
+[0.299135] (-) TimerEvent: {}
+[0.399718] (-) TimerEvent: {}
+[0.500430] (-) TimerEvent: {}
+[0.601193] (-) TimerEvent: {}
+[0.701938] (-) TimerEvent: {}
+[0.802489] (-) TimerEvent: {}
+[0.903097] (-) TimerEvent: {}
+[1.003651] (-) TimerEvent: {}
+[1.104258] (-) TimerEvent: {}
+[1.204940] (-) TimerEvent: {}
+[1.305559] (-) TimerEvent: {}
+[1.406331] (-) TimerEvent: {}
+[1.507188] (-) TimerEvent: {}
+[1.607738] (-) TimerEvent: {}
+[1.708262] (-) TimerEvent: {}
+[1.808796] (-) TimerEvent: {}
+[1.909577] (-) TimerEvent: {}
+[2.010320] (-) TimerEvent: {}
+[2.110868] (-) TimerEvent: {}
+[2.211379] (-) TimerEvent: {}
+[2.311963] (-) TimerEvent: {}
+[2.412487] (-) TimerEvent: {}
+[2.513109] (-) TimerEvent: {}
+[2.613606] (-) TimerEvent: {}
+[2.714156] (-) TimerEvent: {}
+[2.814729] (-) TimerEvent: {}
+[2.915293] (-) TimerEvent: {}
+[3.015853] (-) TimerEvent: {}
+[3.116339] (-) TimerEvent: {}
+[3.216911] (-) TimerEvent: {}
+[3.317411] (-) TimerEvent: {}
+[3.417979] (-) TimerEvent: {}
+[3.518519] (-) TimerEvent: {}
+[3.619249] (-) TimerEvent: {}
+[3.719789] (-) TimerEvent: {}
+[3.820376] (-) TimerEvent: {}
+[3.921001] (-) TimerEvent: {}
+[4.021497] (-) TimerEvent: {}
+[4.122085] (-) TimerEvent: {}
+[4.222598] (-) TimerEvent: {}
+[4.323246] (-) TimerEvent: {}
+[4.423889] (-) TimerEvent: {}
+[4.524429] (-) TimerEvent: {}
+[4.625055] (-) TimerEvent: {}
+[4.725696] (-) TimerEvent: {}
+[4.826292] (-) TimerEvent: {}
+[4.926834] (-) TimerEvent: {}
+[5.027378] (-) TimerEvent: {}
+[5.128020] (-) TimerEvent: {}
+[5.228734] (-) TimerEvent: {}
+[5.329411] (-) TimerEvent: {}
+[5.430098] (-) TimerEvent: {}
+[5.530794] (-) TimerEvent: {}
+[5.631273] (-) TimerEvent: {}
+[5.731702] (-) TimerEvent: {}
+[5.832197] (-) TimerEvent: {}
+[5.932713] (-) TimerEvent: {}
+[6.033356] (-) TimerEvent: {}
+[6.133927] (-) TimerEvent: {}
+[6.234564] (-) TimerEvent: {}
+[6.335169] (-) TimerEvent: {}
+[6.435796] (-) TimerEvent: {}
+[6.536396] (-) TimerEvent: {}
+[6.636985] (-) TimerEvent: {}
+[6.737598] (-) TimerEvent: {}
+[6.838170] (-) TimerEvent: {}
+[6.938705] (-) TimerEvent: {}
+[7.039393] (-) TimerEvent: {}
+[7.139991] (-) TimerEvent: {}
+[7.240511] (-) TimerEvent: {}
+[7.341154] (-) TimerEvent: {}
+[7.441712] (-) TimerEvent: {}
+[7.542262] (-) TimerEvent: {}
+[7.642832] (-) TimerEvent: {}
+[7.743346] (-) TimerEvent: {}
+[7.843884] (-) TimerEvent: {}
+[7.944543] (-) TimerEvent: {}
+[8.045311] (-) TimerEvent: {}
+[8.145881] (-) TimerEvent: {}
+[8.246423] (-) TimerEvent: {}
+[8.347130] (-) TimerEvent: {}
+[8.447916] (-) TimerEvent: {}
+[8.548447] (-) TimerEvent: {}
+[8.648963] (-) TimerEvent: {}
+[8.749588] (-) TimerEvent: {}
+[8.850162] (-) TimerEvent: {}
+[8.950627] (-) TimerEvent: {}
+[9.051182] (-) TimerEvent: {}
+[9.151715] (-) TimerEvent: {}
+[9.252275] (-) TimerEvent: {}
+[9.352773] (-) TimerEvent: {}
+[9.453233] (-) TimerEvent: {}
+[9.553733] (-) TimerEvent: {}
+[9.654280] (-) TimerEvent: {}
+[9.754774] (-) TimerEvent: {}
+[9.855186] (-) TimerEvent: {}
+[9.955625] (-) TimerEvent: {}
+[10.056207] (-) TimerEvent: {}
+[10.156684] (-) TimerEvent: {}
+[10.257173] (-) TimerEvent: {}
+[10.357631] (-) TimerEvent: {}
+[10.458201] (-) TimerEvent: {}
+[10.558707] (-) TimerEvent: {}
+[10.659208] (-) TimerEvent: {}
+[10.759596] (-) TimerEvent: {}
+[10.860057] (-) TimerEvent: {}
+[10.960584] (-) TimerEvent: {}
+[11.061099] (-) TimerEvent: {}
+[11.161456] (-) TimerEvent: {}
+[11.261849] (-) TimerEvent: {}
+[11.362318] (-) TimerEvent: {}
+[11.462701] (-) TimerEvent: {}
+[11.563169] (-) TimerEvent: {}
+[11.663528] (-) TimerEvent: {}
+[11.763965] (-) TimerEvent: {}
+[11.864336] (-) TimerEvent: {}
+[11.964701] (-) TimerEvent: {}
+[12.065155] (-) TimerEvent: {}
+[12.165625] (-) TimerEvent: {}
+[12.266095] (-) TimerEvent: {}
+[12.366469] (-) TimerEvent: {}
+[12.466897] (-) TimerEvent: {}
+[12.567283] (-) TimerEvent: {}
+[12.667655] (-) TimerEvent: {}
+[12.768148] (-) TimerEvent: {}
+[12.868552] (-) TimerEvent: {}
+[12.968971] (-) TimerEvent: {}
+[13.069381] (-) TimerEvent: {}
+[13.169817] (-) TimerEvent: {}
+[13.270255] (-) TimerEvent: {}
+[13.370724] (-) TimerEvent: {}
+[13.471245] (-) TimerEvent: {}
+[13.571659] (-) TimerEvent: {}
+[13.672185] (-) TimerEvent: {}
+[13.772662] (-) TimerEvent: {}
+[13.873222] (-) TimerEvent: {}
+[13.973716] (-) TimerEvent: {}
+[14.074189] (-) TimerEvent: {}
+[14.174665] (-) TimerEvent: {}
+[14.275203] (-) TimerEvent: {}
+[14.375684] (-) TimerEvent: {}
+[14.476177] (-) TimerEvent: {}
+[14.486023] (aruco_pose_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable aruco_pose_publisher_node\x1b[0m\n'}
+[14.576311] (-) TimerEvent: {}
+[14.676824] (-) TimerEvent: {}
+[14.777354] (-) TimerEvent: {}
+[14.877894] (-) TimerEvent: {}
+[14.978428] (-) TimerEvent: {}
+[15.078889] (-) TimerEvent: {}
+[15.179559] (-) TimerEvent: {}
+[15.280445] (-) TimerEvent: {}
+[15.381219] (-) TimerEvent: {}
+[15.481951] (-) TimerEvent: {}
+[15.484845] (aruco_pose_publisher) StdoutLine: {'line': b'[100%] Built target aruco_pose_publisher_node\n'}
+[15.505135] (aruco_pose_publisher) CommandEnded: {'returncode': 0}
+[15.506568] (aruco_pose_publisher) JobProgress: {'identifier': 'aruco_pose_publisher', 'progress': 'install'}
+[15.521847] (aruco_pose_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher'], 'cwd': '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryan'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/external_packages/px4_msgs/px4_msgs/lib:/opt/ros2-csi-msgs/install/wifi_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryan'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0-insider'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ryan/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/ryan/.nvm/versions/node/v22.19.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code-insiders/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](.xps-py) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code-insiders/code-insiders'), ('MANAGERPID', '4170'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '4380'), ('BUNDLED_DEBUGPY_PATH', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '135683'), ('NVM_DIR', '/home/ryan/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/opt/ros2-csi-msgs/install:/external_packages/px4_msgs'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryan'), ('JOURNAL_STREAM', '8:40985'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ryan/.xps-py/bin:/home/ryan/.local/bin:/home/ryan/.nvm/versions/node/v22.19.0/bin:/home/ryan/.xps-py/bin:/opt/ros/humble/bin:/home/ryan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ryan/.dotnet/tools:/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts:/home/ryan/.config/Code - Insiders/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/ryan-XPS-9320:@/tmp/.ICE-unix/4352,unix/ryan-XPS-9320:/tmp/.ICE-unix/4352'), ('INVOCATION_ID', 'e32a932df6554b62bb8750e2ddd224a7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/ryan/.vscode-insiders/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-73a2cf1db547468f.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/ryan/.config/Code - Insiders/User/workspaceStorage/d648386b030636306424ea9f8615635e/ms-python.python/pythonrc.py'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ryan/.cache/dotnet_bundle_extract'), ('VIRTUAL_ENV_PROMPT', '(.xps-py)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.QL7PF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-45667b4fe6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/ryan/.xps-py'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryan/Cooperative_Robotics/build/aruco_pose_publisher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/ryan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/external_packages/px4_msgs/px4_msgs/lib/python3.10/site-packages:/opt/ros2-csi-msgs/install/wifi_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/external_packages/px4_msgs/px4_msgs:/opt/ros2-csi-msgs/install/wifi_msgs:/opt/ros/humble')]), 'shell': False}
+[15.533494] (aruco_pose_publisher) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.533801] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node\n'}
+[15.534579] (aruco_pose_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/lib/aruco_pose_publisher/aruco_pose_publisher_node" to ""\n'}
+[15.534806] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch\n'}
+[15.534966] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/launch/aruco_pose_publisher.launch.py\n'}
+[15.535193] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/package_run_dependencies/aruco_pose_publisher\n'}
+[15.535409] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/parent_prefix_path/aruco_pose_publisher\n'}
+[15.535501] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.sh\n'}
+[15.535578] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/ament_prefix_path.dsv\n'}
+[15.535695] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.sh\n'}
+[15.535850] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/environment/path.dsv\n'}
+[15.535921] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.bash\n'}
+[15.535994] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.sh\n'}
+[15.536077] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.zsh\n'}
+[15.536146] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/local_setup.dsv\n'}
+[15.536252] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.dsv\n'}
+[15.536372] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/ament_index/resource_index/packages/aruco_pose_publisher\n'}
+[15.536509] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig.cmake\n'}
+[15.536579] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/cmake/aruco_pose_publisherConfig-version.cmake\n'}
+[15.536643] (aruco_pose_publisher) StdoutLine: {'line': b'-- Installing: /home/ryan/Cooperative_Robotics/install/aruco_pose_publisher/share/aruco_pose_publisher/package.xml\n'}
+[15.539088] (aruco_pose_publisher) CommandEnded: {'returncode': 0}
+[15.563943] (aruco_pose_publisher) JobEnded: {'identifier': 'aruco_pose_publisher', 'rc': 0}
+[15.564952] (-) EventReactorShutdown: {}
